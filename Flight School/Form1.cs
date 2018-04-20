@@ -10,11 +10,44 @@ using System.Windows.Forms;
 
 namespace Flight_School
 {
-    public partial class Form1 : Form
+    public partial class mainMenuForm : Form
     {
-        public Form1()
+        public mainMenuForm()
         {
             InitializeComponent();
+        }
+
+        private void addCustButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            addCustomer custForm = new addCustomer();
+            custForm.ShowDialog();
+            this.Close();
+        }
+
+        private void enterFlightButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Would be entering flight info");
+        }
+
+        private void changeCustAuthButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Would change customer authorization");
+        }
+
+        private void custToInstButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Would change customers to instructors");
+        }
+
+        private void payEmployeeButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Would be paying employees");
+        }
+
+        private void exitProgram_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
