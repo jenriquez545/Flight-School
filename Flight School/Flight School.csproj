@@ -51,6 +51,18 @@
     <Compile Include="addCustomer.Designer.cs">
       <DependentUpon>addCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="changeCustAuth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changeCustAuth.Designer.cs">
+      <DependentUpon>changeCustAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enterFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enterFlight.Designer.cs">
+      <DependentUpon>enterFlight.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +73,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="addCustomer.resx">
       <DependentUpon>addCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changeCustAuth.resx">
+      <DependentUpon>changeCustAuth.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
