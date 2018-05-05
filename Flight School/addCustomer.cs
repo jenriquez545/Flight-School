@@ -42,7 +42,7 @@ namespace Flight_School
 
         private void addCustButton_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Would be adding a customer");
         }
     }
 }

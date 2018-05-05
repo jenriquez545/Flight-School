@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Flight_School
 {
-    public partial class enterFlight : Form
+    public partial class changeCustRating : Form
     {
-        public enterFlight()
+        public changeCustRating()
         {
             InitializeComponent();
         }
@@ -25,9 +25,9 @@ namespace Flight_School
             menuForm.ShowDialog();
         }
 
-        private void submitFlightButton_Click(object sender, EventArgs e)
+        private void submitChangeButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Would be adding flight");
+            MessageBox.Show("Would be submitting change to customer rating");
         }
     }
 }

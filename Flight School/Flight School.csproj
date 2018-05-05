@@ -51,11 +51,11 @@
     <Compile Include="addCustomer.Designer.cs">
       <DependentUpon>addCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="changeCustAuth.cs">
+    <Compile Include="changeCustRating.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="changeCustAuth.Designer.cs">
-      <DependentUpon>changeCustAuth.cs</DependentUpon>
+    <Compile Include="changeCustRating.Designer.cs">
+      <DependentUpon>changeCustRating.cs</DependentUpon>
     </Compile>
     <Compile Include="enterFlight.cs">
       <SubType>Form</SubType>
@@ -69,16 +69,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="payInstructor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payInstructor.Designer.cs">
+      <DependentUpon>payInstructor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="addCustomer.resx">
       <DependentUpon>addCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="changeCustAuth.resx">
-      <DependentUpon>changeCustAuth.cs</DependentUpon>
+    <EmbeddedResource Include="changeCustRating.resx">
+      <DependentUpon>changeCustRating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enterFlight.resx">
+      <DependentUpon>enterFlight.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payInstructor.resx">
+      <DependentUpon>payInstructor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

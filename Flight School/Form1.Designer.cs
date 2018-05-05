@@ -31,9 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.addCustButton = new System.Windows.Forms.Button();
             this.enterFlightButton = new System.Windows.Forms.Button();
-            this.changeCustAuthButton = new System.Windows.Forms.Button();
-            this.custToInstButton = new System.Windows.Forms.Button();
-            this.payEmployeeButton = new System.Windows.Forms.Button();
+            this.changeCustRatingButton = new System.Windows.Forms.Button();
+            this.payInstructorButton = new System.Windows.Forms.Button();
             this.exitProgram = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -58,7 +57,7 @@
             // 
             // enterFlightButton
             // 
-            this.enterFlightButton.Location = new System.Drawing.Point(53, 54);
+            this.enterFlightButton.Location = new System.Drawing.Point(53, 75);
             this.enterFlightButton.Name = "enterFlightButton";
             this.enterFlightButton.Size = new System.Drawing.Size(168, 23);
             this.enterFlightButton.TabIndex = 2;
@@ -66,35 +65,25 @@
             this.enterFlightButton.UseVisualStyleBackColor = true;
             this.enterFlightButton.Click += new System.EventHandler(this.enterFlightButton_Click);
             // 
-            // changeCustAuthButton
+            // changeCustRatingButton
             // 
-            this.changeCustAuthButton.Location = new System.Drawing.Point(53, 83);
-            this.changeCustAuthButton.Name = "changeCustAuthButton";
-            this.changeCustAuthButton.Size = new System.Drawing.Size(168, 23);
-            this.changeCustAuthButton.TabIndex = 3;
-            this.changeCustAuthButton.Text = "Change Customer Authorization";
-            this.changeCustAuthButton.UseVisualStyleBackColor = true;
-            this.changeCustAuthButton.Click += new System.EventHandler(this.changeCustAuthButton_Click);
+            this.changeCustRatingButton.Location = new System.Drawing.Point(53, 127);
+            this.changeCustRatingButton.Name = "changeCustRatingButton";
+            this.changeCustRatingButton.Size = new System.Drawing.Size(168, 23);
+            this.changeCustRatingButton.TabIndex = 3;
+            this.changeCustRatingButton.Text = "Change Customer Rating";
+            this.changeCustRatingButton.UseVisualStyleBackColor = true;
+            this.changeCustRatingButton.Click += new System.EventHandler(this.changeCustRatingButton_Click_1);
             // 
-            // custToInstButton
+            // payInstructorButton
             // 
-            this.custToInstButton.Location = new System.Drawing.Point(53, 112);
-            this.custToInstButton.Name = "custToInstButton";
-            this.custToInstButton.Size = new System.Drawing.Size(168, 23);
-            this.custToInstButton.TabIndex = 4;
-            this.custToInstButton.Text = "Make Customer An Instructor";
-            this.custToInstButton.UseVisualStyleBackColor = true;
-            this.custToInstButton.Click += new System.EventHandler(this.custToInstButton_Click);
-            // 
-            // payEmployeeButton
-            // 
-            this.payEmployeeButton.Location = new System.Drawing.Point(53, 141);
-            this.payEmployeeButton.Name = "payEmployeeButton";
-            this.payEmployeeButton.Size = new System.Drawing.Size(168, 23);
-            this.payEmployeeButton.TabIndex = 5;
-            this.payEmployeeButton.Text = "Pay Employee";
-            this.payEmployeeButton.UseVisualStyleBackColor = true;
-            this.payEmployeeButton.Click += new System.EventHandler(this.payEmployeeButton_Click);
+            this.payInstructorButton.Location = new System.Drawing.Point(53, 178);
+            this.payInstructorButton.Name = "payInstructorButton";
+            this.payInstructorButton.Size = new System.Drawing.Size(168, 23);
+            this.payInstructorButton.TabIndex = 5;
+            this.payInstructorButton.Text = "Pay Instructor";
+            this.payInstructorButton.UseVisualStyleBackColor = true;
+            this.payInstructorButton.Click += new System.EventHandler(this.payEmployeeButton_Click);
             // 
             // exitProgram
             // 
@@ -112,9 +101,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(268, 261);
             this.Controls.Add(this.exitProgram);
-            this.Controls.Add(this.payEmployeeButton);
-            this.Controls.Add(this.custToInstButton);
-            this.Controls.Add(this.changeCustAuthButton);
+            this.Controls.Add(this.payInstructorButton);
+            this.Controls.Add(this.changeCustRatingButton);
             this.Controls.Add(this.enterFlightButton);
             this.Controls.Add(this.addCustButton);
             this.Controls.Add(this.label1);
@@ -130,9 +118,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button addCustButton;
         private System.Windows.Forms.Button enterFlightButton;
-        private System.Windows.Forms.Button changeCustAuthButton;
-        private System.Windows.Forms.Button custToInstButton;
-        private System.Windows.Forms.Button payEmployeeButton;
+        private System.Windows.Forms.Button changeCustRatingButton;
+        private System.Windows.Forms.Button payInstructorButton;
         private System.Windows.Forms.Button exitProgram;
     }
 }

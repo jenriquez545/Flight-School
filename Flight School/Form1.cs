@@ -27,22 +27,29 @@ namespace Flight_School
 
         private void enterFlightButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Would be entering flight info");
+            //MessageBox.Show("Would be entering flight info");
+            this.Hide();
+            enterFlight flightForm = new enterFlight();
+            flightForm.ShowDialog();
+            this.Close();
         }
 
-        private void changeCustAuthButton_Click(object sender, EventArgs e)
+        private void changeCustRatingButton_Click_1(object sender, EventArgs e)
         {
-            MessageBox.Show("Would change customer authorization");
-        }
-
-        private void custToInstButton_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Would change customers to instructors");
+            //MessageBox.Show("Would change customer rating");
+            this.Hide();
+            changeCustRating ratingForm = new changeCustRating();
+            ratingForm.ShowDialog();
+            this.Close();
         }
 
         private void payEmployeeButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Would be paying employees");
+            //MessageBox.Show("Would be paying employees");
+            this.Hide();
+            payInstructor payForm = new payInstructor();
+            payForm.ShowDialog();
+            this.Close();
         }
 
         private void exitProgram_Click(object sender, EventArgs e)
